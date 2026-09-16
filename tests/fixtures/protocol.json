@@ -1,0 +1,18 @@
+{
+    "secret_base64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+    "api_key": "app-1",
+    "timestamp": 1700000000,
+    "nonce": "000102030405060708090a0b0c0d0e0f",
+    "socket_id": "550e8400-e29b-41d4-a716-446655440000",
+    "publish": {
+        "body": "{\"channels\":[\"updates\",\"private-orders.8\"],\"event\":\"App\\\\Events\\\\OrderUpdated\",\"data\":{\"message\":\"سلام / café\"}}",
+        "sha256": "adab13bfec318560f55913f5e77798c23c8bf8bd0f05d3912771c644420cfc3f",
+        "signature": "9cb1b09dbc5989a79f47f2353bbfe93d1b6a56a568f7e63f681fc9eb19e2b086"
+    },
+    "presence": {
+        "channel": "presence-room.8",
+        "user_id": "کاربر-8",
+        "user_info": {"name": "José / سارا"},
+        "grant": "eyJ2IjoxLCJhcGlfa2V5IjoiYXBwLTEiLCJzb2NrZXRfaWQiOiI1NTBlODQwMC1lMjliLTQxZDQtYTcxNi00NDY2NTU0NDAwMDAiLCJjaGFubmVsIjoicHJlc2VuY2Utcm9vbS44IiwiZXhwIjoxNzAwMDAwMDYwLCJ1c2VyX2lkIjoi2qnYp9ix2KjYsS04IiwidXNlcl9pbmZvIjp7Im5hbWUiOiJKb3PDqSAvINiz2KfYsdinIn19.CzVv1A-qW3foZGHYvXYlvc_o726Rb0gUjiwQ6wXMSzk"
+    }
+}

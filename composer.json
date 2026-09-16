@@ -1,0 +1,36 @@
+{
+    "name": "cloudfort/tez",
+    "description": "PHP SDK and Laravel broadcaster for the Tez realtime broadcasting service",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["tez", "realtime", "broadcasting", "laravel", "websocket", "channels"],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/broadcasting": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "orchestra/testbench": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cloudfort\\Tez\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cloudfort\\Tez\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cloudfort\\Tez\\TezServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
